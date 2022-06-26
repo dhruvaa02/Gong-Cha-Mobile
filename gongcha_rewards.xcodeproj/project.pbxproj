@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCB7394128685BA8001C08AB /* gongcha_rewardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7394028685BA8001C08AB /* gongcha_rewardsApp.swift */; };
+		FCB7394328685BA8001C08AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7394228685BA8001C08AB /* ContentView.swift */; };
+		FCB7394528685BAD001C08AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB7394428685BAD001C08AB /* Assets.xcassets */; };
+		FCB7394828685BAD001C08AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB7394728685BAD001C08AB /* Preview Assets.xcassets */; };
+		FCB7394A28685BAD001C08AB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7394928685BAD001C08AB /* Persistence.swift */; };
+		FCB7394D28685BAD001C08AB /* gongcha_rewards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCB7394B28685BAD001C08AB /* gongcha_rewards.xcdatamodeld */; };
+		FCB7395728685BAD001C08AB /* gongcha_rewardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7395628685BAD001C08AB /* gongcha_rewardsTests.swift */; };
+		FCB7396128685BAD001C08AB /* gongcha_rewardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7396028685BAD001C08AB /* gongcha_rewardsUITests.swift */; };
+		FCB7396328685BAD001C08AB /* gongcha_rewardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7396228685BAD001C08AB /* gongcha_rewardsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCB7395328685BAD001C08AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCB7393528685BA8001C08AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCB7393C28685BA8001C08AB;
+			remoteInfo = gongcha_rewards;
+		};
+		FCB7395D28685BAD001C08AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCB7393528685BA8001C08AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCB7393C28685BA8001C08AB;
+			remoteInfo = gongcha_rewards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCB7393D28685BA8001C08AB /* gongcha_rewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gongcha_rewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB7394028685BA8001C08AB /* gongcha_rewardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gongcha_rewardsApp.swift; sourceTree = "<group>"; };
+		FCB7394228685BA8001C08AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCB7394428685BAD001C08AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCB7394728685BAD001C08AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCB7394928685BAD001C08AB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FCB7394C28685BAD001C08AB /* gongcha_rewards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gongcha_rewards.xcdatamodel; sourceTree = "<group>"; };
+		FCB7395228685BAD001C08AB /* gongcha_rewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gongcha_rewardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB7395628685BAD001C08AB /* gongcha_rewardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gongcha_rewardsTests.swift; sourceTree = "<group>"; };
+		FCB7395C28685BAD001C08AB /* gongcha_rewardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gongcha_rewardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB7396028685BAD001C08AB /* gongcha_rewardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gongcha_rewardsUITests.swift; sourceTree = "<group>"; };
+		FCB7396228685BAD001C08AB /* gongcha_rewardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gongcha_rewardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCB7393A28685BA8001C08AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB7394F28685BAD001C08AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB7395928685BAD001C08AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCB7393428685BA8001C08AB = {
+			isa = PBXGroup;
+			children = (
+				FCB7393F28685BA8001C08AB /* gongcha_rewards */,
+				FCB7395528685BAD001C08AB /* gongcha_rewardsTests */,
+				FCB7395F28685BAD001C08AB /* gongcha_rewardsUITests */,
+				FCB7393E28685BA8001C08AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCB7393E28685BA8001C08AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCB7393D28685BA8001C08AB /* gongcha_rewards.app */,
+				FCB7395228685BAD001C08AB /* gongcha_rewardsTests.xctest */,
+				FCB7395C28685BAD001C08AB /* gongcha_rewardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCB7393F28685BA8001C08AB /* gongcha_rewards */ = {
+			isa = PBXGroup;
+			children = (
+				FCB7394028685BA8001C08AB /* gongcha_rewardsApp.swift */,
+				FCB7394228685BA8001C08AB /* ContentView.swift */,
+				FCB7394428685BAD001C08AB /* Assets.xcassets */,
+				FCB7394928685BAD001C08AB /* Persistence.swift */,
+				FCB7394B28685BAD001C08AB /* gongcha_rewards.xcdatamodeld */,
+				FCB7394628685BAD001C08AB /* Preview Content */,
+			);
+			path = gongcha_rewards;
+			sourceTree = "<group>";
+		};
+		FCB7394628685BAD001C08AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCB7394728685BAD001C08AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCB7395528685BAD001C08AB /* gongcha_rewardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB7395628685BAD001C08AB /* gongcha_rewardsTests.swift */,
+			);
+			path = gongcha_rewardsTests;
+			sourceTree = "<group>";
+		};
+		FCB7395F28685BAD001C08AB /* gongcha_rewardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB7396028685BAD001C08AB /* gongcha_rewardsUITests.swift */,
+				FCB7396228685BAD001C08AB /* gongcha_rewardsUITestsLaunchTests.swift */,
+			);
+			path = gongcha_rewardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCB7393C28685BA8001C08AB /* gongcha_rewards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB7396628685BAD001C08AB /* Build configuration list for PBXNativeTarget "gongcha_rewards" */;
+			buildPhases = (
+				FCB7393928685BA8001C08AB /* Sources */,
+				FCB7393A28685BA8001C08AB /* Frameworks */,
+				FCB7393B28685BA8001C08AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gongcha_rewards;
+			productName = gongcha_rewards;
+			productReference = FCB7393D28685BA8001C08AB /* gongcha_rewards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCB7395128685BAD001C08AB /* gongcha_rewardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB7396928685BAD001C08AB /* Build configuration list for PBXNativeTarget "gongcha_rewardsTests" */;
+			buildPhases = (
+				FCB7394E28685BAD001C08AB /* Sources */,
+				FCB7394F28685BAD001C08AB /* Frameworks */,
+				FCB7395028685BAD001C08AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCB7395428685BAD001C08AB /* PBXTargetDependency */,
+			);
+			name = gongcha_rewardsTests;
+			productName = gongcha_rewardsTests;
+			productReference = FCB7395228685BAD001C08AB /* gongcha_rewardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCB7395B28685BAD001C08AB /* gongcha_rewardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB7396C28685BAD001C08AB /* Build configuration list for PBXNativeTarget "gongcha_rewardsUITests" */;
+			buildPhases = (
+				FCB7395828685BAD001C08AB /* Sources */,
+				FCB7395928685BAD001C08AB /* Frameworks */,
+				FCB7395A28685BAD001C08AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCB7395E28685BAD001C08AB /* PBXTargetDependency */,
+			);
+			name = gongcha_rewardsUITests;
+			productName = gongcha_rewardsUITests;
+			productReference = FCB7395C28685BAD001C08AB /* gongcha_rewardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCB7393528685BA8001C08AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FCB7393C28685BA8001C08AB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FCB7395128685BAD001C08AB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FCB7393C28685BA8001C08AB;
+					};
+					FCB7395B28685BAD001C08AB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FCB7393C28685BA8001C08AB;
+					};
+				};
+			};
+			buildConfigurationList = FCB7393828685BA8001C08AB /* Build configuration list for PBXProject "gongcha_rewards" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCB7393428685BA8001C08AB;
+			productRefGroup = FCB7393E28685BA8001C08AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCB7393C28685BA8001C08AB /* gongcha_rewards */,
+				FCB7395128685BAD001C08AB /* gongcha_rewardsTests */,
+				FCB7395B28685BAD001C08AB /* gongcha_rewardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCB7393B28685BA8001C08AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB7394828685BAD001C08AB /* Preview Assets.xcassets in Resources */,
+				FCB7394528685BAD001C08AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB7395028685BAD001C08AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB7395A28685BAD001C08AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCB7393928685BA8001C08AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB7394A28685BAD001C08AB /* Persistence.swift in Sources */,
+				FCB7394328685BA8001C08AB /* ContentView.swift in Sources */,
+				FCB7394D28685BAD001C08AB /* gongcha_rewards.xcdatamodeld in Sources */,
+				FCB7394128685BA8001C08AB /* gongcha_rewardsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB7394E28685BAD001C08AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB7395728685BAD001C08AB /* gongcha_rewardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB7395828685BAD001C08AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB7396128685BAD001C08AB /* gongcha_rewardsUITests.swift in Sources */,
+				FCB7396328685BAD001C08AB /* gongcha_rewardsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCB7395428685BAD001C08AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCB7393C28685BA8001C08AB /* gongcha_rewards */;
+			targetProxy = FCB7395328685BAD001C08AB /* PBXContainerItemProxy */;
+		};
+		FCB7395E28685BAD001C08AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCB7393C28685BA8001C08AB /* gongcha_rewards */;
+			targetProxy = FCB7395D28685BAD001C08AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCB7396428685BAD001C08AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCB7396528685BAD001C08AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCB7396728685BAD001C08AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gongcha_rewards/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dhruvaa02.gongcha-rewards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCB7396828685BAD001C08AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gongcha_rewards/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dhruvaa02.gongcha-rewards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCB7396A28685BAD001C08AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dhruvaa02.gongcha-rewardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gongcha_rewards.app/gongcha_rewards";
+			};
+			name = Debug;
+		};
+		FCB7396B28685BAD001C08AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dhruvaa02.gongcha-rewardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gongcha_rewards.app/gongcha_rewards";
+			};
+			name = Release;
+		};
+		FCB7396D28685BAD001C08AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dhruvaa02.gongcha-rewardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gongcha_rewards;
+			};
+			name = Debug;
+		};
+		FCB7396E28685BAD001C08AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dhruvaa02.gongcha-rewardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gongcha_rewards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCB7393828685BA8001C08AB /* Build configuration list for PBXProject "gongcha_rewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB7396428685BAD001C08AB /* Debug */,
+				FCB7396528685BAD001C08AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB7396628685BAD001C08AB /* Build configuration list for PBXNativeTarget "gongcha_rewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB7396728685BAD001C08AB /* Debug */,
+				FCB7396828685BAD001C08AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB7396928685BAD001C08AB /* Build configuration list for PBXNativeTarget "gongcha_rewardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB7396A28685BAD001C08AB /* Debug */,
+				FCB7396B28685BAD001C08AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB7396C28685BAD001C08AB /* Build configuration list for PBXNativeTarget "gongcha_rewardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB7396D28685BAD001C08AB /* Debug */,
+				FCB7396E28685BAD001C08AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCB7394B28685BAD001C08AB /* gongcha_rewards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCB7394C28685BAD001C08AB /* gongcha_rewards.xcdatamodel */,
+			);
+			currentVersion = FCB7394C28685BAD001C08AB /* gongcha_rewards.xcdatamodel */;
+			path = gongcha_rewards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCB7393528685BA8001C08AB /* Project object */;
+}
