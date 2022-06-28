@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct gongChaContentView: View {
-
+    
     var points = 100
     
     var body: some View {
@@ -43,8 +43,54 @@ struct gongChaContentView: View {
                     
                     Spacer()
                     
+                    HStack {
+                        
+                    NavigationLink(destination: qrProfileView(), label: {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 10.0).padding().foregroundColor(Color("royalRed"))
+                                .frame(width: 100, height: 100, alignment: .center)
+                                .shadow(radius: 10)
+                            Image(systemName: "qrcode.viewfinder")
+                                .font(.system(size: 35))
+                                .foregroundColor(Color.white)
+                        }
+                    })
+                    
+                    
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 10.0).padding().foregroundColor(Color("royalRed"))
+                            .frame(width: 100, height: 100, alignment: .center)
+                            .shadow(radius: 10)
+                        Link(destination: URL(string: "https://gong-cha.ca/menu/")!, label: {
+                            Image(systemName: "menucard")
+                                .font(.system(size: 35))
+                                .foregroundColor(Color.white)
+                        })
+                    }
+                    
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 10.0).padding().foregroundColor(Color("royalRed"))
+                            .frame(width: 100, height: 100, alignment: .center)
+                            .shadow(radius: 10)
+                        Link(destination: URL(string: "https://gong-cha.ca/franchises/")!, label: {
+                            Image(systemName: "phone.bubble.left.fill")
+                                .font(.system(size: 35))
+                                .foregroundColor(Color.white)
+                        })
+                    }
+                    
                 }
+                
+                Spacer()
             }
         }
+    }
+}
+}
+
+
+struct gongChaContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        gongChaContentView()
     }
 }
