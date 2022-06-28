@@ -15,7 +15,7 @@ struct qrProfileView: View {
             Spacer()
             Image(systemName: "qrcode")
                 .font(.system(size: 300))
-                .padding(.bottom)
+                .padding(.bottom, 100.0)
             Spacer()
         }.background(Color("gongchaGrey"))
     }
