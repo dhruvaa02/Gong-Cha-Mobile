@@ -3,4 +3,4 @@ Potential mobile rewards app for Gong Cha
 ## Under construction
 Current look:
 
-Uploading Simulator Screen Recording - iPhone 13 - 2022-06-28 at 00.56.39.mp4…
+https://user-images.githubusercontent.com/86129180/176098487-f08edd39-38f5-4b5a-81f8-efca39496107.mp4
