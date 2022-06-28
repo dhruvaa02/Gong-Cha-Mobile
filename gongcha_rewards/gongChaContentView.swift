@@ -19,6 +19,10 @@ struct gongChaContentView: View {
             ZStack {
                 Color("gongchaGrey").ignoresSafeArea()
                 VStack{
+                    Spacer()
+                    Image("water").frame(width: 200, height: 200, alignment: .center)
+                }
+                VStack{
                     HStack {
                         Text("Gong cha")
                             .padding(.leading, 25.0)
@@ -43,9 +47,7 @@ struct gongChaContentView: View {
                             }
                         }
                     })
-                    
-                    Spacer()
-                    
+                                        
                     HStack {
                         
                         NavigationLink(destination: qrProfileView(), label: {
@@ -88,6 +90,7 @@ struct gongChaContentView: View {
                             }
                         })
                     }
+                    .padding(.top)
                     Spacer()
                 }
             }.fullScreenCover(isPresented: $showMenu, content: {
