@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC0D4BE4286A820C00F30994 /* rewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D4BE1286A820B00F30994 /* rewardsView.swift */; };
+		FC0D4BE5286A820C00F30994 /* gongchacontent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D4BE2286A820B00F30994 /* gongchacontent.swift */; };
 		FCB7394128685BA8001C08AB /* gongcha_rewardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7394028685BA8001C08AB /* gongcha_rewardsApp.swift */; };
-		FCB7394328685BA8001C08AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7394228685BA8001C08AB /* ContentView.swift */; };
+		FCB7394328685BA8001C08AB /* gongChaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7394228685BA8001C08AB /* gongChaViewModel.swift */; };
 		FCB7394528685BAD001C08AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB7394428685BAD001C08AB /* Assets.xcassets */; };
 		FCB7394828685BAD001C08AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB7394728685BAD001C08AB /* Preview Assets.xcassets */; };
-		FCB7394A28685BAD001C08AB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7394928685BAD001C08AB /* Persistence.swift */; };
 		FCB7394D28685BAD001C08AB /* gongcha_rewards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCB7394B28685BAD001C08AB /* gongcha_rewards.xcdatamodeld */; };
 		FCB7395728685BAD001C08AB /* gongcha_rewardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7395628685BAD001C08AB /* gongcha_rewardsTests.swift */; };
 		FCB7396128685BAD001C08AB /* gongcha_rewardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7396028685BAD001C08AB /* gongcha_rewardsUITests.swift */; };
@@ -36,12 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC0D4BE1286A820B00F30994 /* rewardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rewardsView.swift; sourceTree = "<group>"; };
+		FC0D4BE2286A820B00F30994 /* gongchacontent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gongchacontent.swift; sourceTree = "<group>"; };
 		FCB7393D28685BA8001C08AB /* gongcha_rewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gongcha_rewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB7394028685BA8001C08AB /* gongcha_rewardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gongcha_rewardsApp.swift; sourceTree = "<group>"; };
-		FCB7394228685BA8001C08AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCB7394228685BA8001C08AB /* gongChaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gongChaViewModel.swift; sourceTree = "<group>"; };
 		FCB7394428685BAD001C08AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCB7394728685BAD001C08AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FCB7394928685BAD001C08AB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FCB7394C28685BAD001C08AB /* gongcha_rewards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gongcha_rewards.xcdatamodel; sourceTree = "<group>"; };
 		FCB7395228685BAD001C08AB /* gongcha_rewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gongcha_rewardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB7395628685BAD001C08AB /* gongcha_rewardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gongcha_rewardsTests.swift; sourceTree = "<group>"; };
@@ -99,9 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				FCB7394028685BA8001C08AB /* gongcha_rewardsApp.swift */,
-				FCB7394228685BA8001C08AB /* ContentView.swift */,
+				FCB7394228685BA8001C08AB /* gongChaViewModel.swift */,
+				FC0D4BE2286A820B00F30994 /* gongchacontent.swift */,
+				FC0D4BE1286A820B00F30994 /* rewardsView.swift */,
 				FCB7394428685BAD001C08AB /* Assets.xcassets */,
-				FCB7394928685BAD001C08AB /* Persistence.swift */,
 				FCB7394B28685BAD001C08AB /* gongcha_rewards.xcdatamodeld */,
 				FCB7394628685BAD001C08AB /* Preview Content */,
 			);
@@ -263,9 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCB7394A28685BAD001C08AB /* Persistence.swift in Sources */,
-				FCB7394328685BA8001C08AB /* ContentView.swift in Sources */,
+				FC0D4BE5286A820C00F30994 /* gongchacontent.swift in Sources */,
+				FCB7394328685BA8001C08AB /* gongChaViewModel.swift in Sources */,
 				FCB7394D28685BAD001C08AB /* gongcha_rewards.xcdatamodeld in Sources */,
+				FC0D4BE4286A820C00F30994 /* rewardsView.swift in Sources */,
 				FCB7394128685BA8001C08AB /* gongcha_rewardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
