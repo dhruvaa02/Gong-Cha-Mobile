@@ -19,6 +19,8 @@
 		FCB7395728685BAD001C08AB /* gongcha_rewardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7395628685BAD001C08AB /* gongcha_rewardsTests.swift */; };
 		FCB7396128685BAD001C08AB /* gongcha_rewardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7396028685BAD001C08AB /* gongcha_rewardsUITests.swift */; };
 		FCB7396328685BAD001C08AB /* gongcha_rewardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7396228685BAD001C08AB /* gongcha_rewardsUITestsLaunchTests.swift */; };
+		FCF084E9286C2392006317B8 /* expandableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF084E8286C2392006317B8 /* expandableView.swift */; };
+		FCF084EB286C247C006317B8 /* rewardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF084EA286C247C006317B8 /* rewardsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		FCB7395C28685BAD001C08AB /* gongcha_rewardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gongcha_rewardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB7396028685BAD001C08AB /* gongcha_rewardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gongcha_rewardsUITests.swift; sourceTree = "<group>"; };
 		FCB7396228685BAD001C08AB /* gongcha_rewardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gongcha_rewardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCF084E8286C2392006317B8 /* expandableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expandableView.swift; sourceTree = "<group>"; };
+		FCF084EA286C247C006317B8 /* rewardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rewardsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 			children = (
 				FCB7394028685BA8001C08AB /* gongcha_rewardsApp.swift */,
 				FCB7394228685BA8001C08AB /* gongChaViewModel.swift */,
+				FCF084EA286C247C006317B8 /* rewardsModel.swift */,
 				FC0D4BE2286A820B00F30994 /* gongChaContentView.swift */,
 				FC0D4BE7286AA37100F30994 /* qrProfileView.swift */,
 				FC0D4BE1286A820B00F30994 /* rewardsView.swift */,
@@ -113,6 +118,7 @@
 				FCB7394B28685BAD001C08AB /* gongcha_rewards.xcdatamodeld */,
 				FCB7394628685BAD001C08AB /* Preview Content */,
 				FC0D4BE9286ABC9E00F30994 /* SafariWrapper.swift */,
+				FCF084E8286C2392006317B8 /* expandableView.swift */,
 			);
 			path = gongcha_rewards;
 			sourceTree = "<group>";
@@ -274,10 +280,12 @@
 			files = (
 				FC0D4BE5286A820C00F30994 /* gongChaContentView.swift in Sources */,
 				FC0D4BE8286AA37100F30994 /* qrProfileView.swift in Sources */,
+				FCF084EB286C247C006317B8 /* rewardsModel.swift in Sources */,
 				FCB7394328685BA8001C08AB /* gongChaViewModel.swift in Sources */,
 				FCB7394D28685BAD001C08AB /* gongcha_rewards.xcdatamodeld in Sources */,
 				FC0D4BE4286A820C00F30994 /* rewardsView.swift in Sources */,
 				FC0D4BEA286ABC9E00F30994 /* SafariWrapper.swift in Sources */,
+				FCF084E9286C2392006317B8 /* expandableView.swift in Sources */,
 				FCB7394128685BA8001C08AB /* gongcha_rewardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

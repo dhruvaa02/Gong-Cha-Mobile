@@ -11,10 +11,18 @@ struct rewardsView: View {
     var body: some View {
         ZStack{
             Color("gongchaGrey").ignoresSafeArea()
-            Button("Add 10 Points") {
-               
+            VStack {
+                ForEach(Rewards.allCases, id: \.self){ rewardToShow in
+                    expandableView(reward: rewardToShow.rawValue)
+                }
             }
-        
         }
+    }
+}
+
+
+struct rewardsView_Previews: PreviewProvider {
+    static var previews: some View {
+        rewardsView()
     }
 }
