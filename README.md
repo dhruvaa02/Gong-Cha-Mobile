@@ -3,8 +3,7 @@ Potential mobile rewards app for Gong Cha
 ## Under construction
 Current look:
 
-https://user-images.githubusercontent.com/86129180/176098487-f08edd39-38f5-4b5a-81f8-efca39496107.mp4
-
+https://user-images.githubusercontent.com/86129180/176373568-0f81d4aa-d442-473a-8d2d-af8fe6060880.mp4
 
 ## TODO:
 * Add login screen/functionality
